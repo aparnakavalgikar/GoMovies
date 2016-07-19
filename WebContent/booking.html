@@ -1,0 +1,17 @@
+<div class="container col-md-12">
+	<div class="row">
+		<div class="col-md-6 movie">
+			<p>
+				Movie: {{movieList.selectedShow.movieName}}<br/>
+				Theater: {{movieList.selectedShow.theaterName}}<br/>
+				Show Time: {{movieList.selectedShow.showTime}}<br/>
+				Price: {{movieList.selectedShow.price}}<br/>
+				Seats:
+				<p ng-repeat="n in [] | range: 5">
+					<input type="checkbox" ng-model="seat[n]"> {{n}}
+				</p>
+			</p>
+			<button id="bookbutton" class="btn btn-primary btn-block" ui-sref="ticket({showId:movieList.selectedShow.showId})" ng-click="book()">Book Now</button>
+		</div>
+	</div>
+</div>

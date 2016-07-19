@@ -1,0 +1,8 @@
+<div class="container ticket">
+	Movie: {{movieList.selectedShow.movieName}}<br>
+	Theater: {{movieList.selectedShow.theaterName}}<br>
+	Show Time: {{movieList.selectedShow.showTime}}<br>
+	Price: {{movieList.selectedShow.price}}<br>
+	Seats: <p ng-repeat="seat in booking.selectedSeats">{{seat}}</p>
+	<button id="bookbutton" class="btn btn-primary">Print</button>
+</div>

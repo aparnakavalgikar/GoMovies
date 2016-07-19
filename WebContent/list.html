@@ -1,0 +1,16 @@
+<div class="container col-md-12">
+	    <p ng-repeat="user in users">
+	    	<h4>Hi, {{user.firstName}} {{user.lastName}}</h4>
+	    </p>
+    	<div class="row">
+			<div class="col-md-6 movie">
+				<p ng-repeat="movie in movieList.movies">
+					Movie: {{movie.movieName}}<br>
+					Theater: {{movie.theaterName}}<br>
+					Show Time: {{movie.showTime}}<br>
+					Price: {{movie.price}}<br>
+				</p>
+				<button id="bookbutton" class="btn btn-primary btn-block" ui-sref="book({showId:movie.showId})">Book</button>
+			</div>
+		</div>
+</div>

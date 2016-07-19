@@ -1,0 +1,84 @@
+body {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background: #e6e6e6;
+}
+
+h1 {
+	background: #a59094; /* Old browsers */
+	background: -moz-linear-gradient(top,  #a59094 0%, #89555f 17%, #8e3d4f 36%, #8f0222 64%, #75000d 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #a59094 0%,#89555f 17%,#8e3d4f 36%,#8f0222 64%,#75000d 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #a59094 0%,#89555f 17%,#8e3d4f 36%,#8f0222 64%,#75000d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a59094', endColorstr='#75000d',GradientType=0 ); /* IE6-9 */
+	color: white;
+	text-shadow: 0 0 5px #fff,
+	0 0 10px #fff,
+	0 0 15px #fff,
+	0 0 20px #ff2d95,
+	0 0 30px #ff2d95,
+	0 0 40px #ff2d95,
+	0 0 50px #ff2d95,
+	0 0 75px #ff2d95;
+	padding: 1% 2%;
+	margin-top: 0%;
+	text-align: center;
+}
+
+.movie {
+	text-align: left;
+	margin-top: 5%;
+	margin-left: 15%;
+	width: 40%;
+	padding: 2%;
+	background: #f2f2f2;
+	border-radius: 10px;
+	color: #ff0066;
+	font-size: 1.3em;
+	box-shadow: 4px 4px 4px #bfbfbf,
+				-4px -4px 4px #bfbfbf;
+}
+
+.movie > p {
+	width: 60%;
+	margin: auto;
+}
+
+#bookbutton {
+	background: #cc0000;
+	border-radius: 20px;
+	font-size: 1em;
+	margin: 4% 0 2% 0;
+}
+
+/* Login */
+.signin, .signup {
+	margin: 5%;
+	width: 30%;
+	padding: 2%;
+	background: #f2f2f2;
+	border-radius: 10px;
+	color: #ff0066;
+	font-size: 1.3em;
+	box-shadow: 4px 4px 4px #bfbfbf,
+				-4px -4px 4px #bfbfbf;
+	text-align: center;
+}
+
+#username, #password, #movietext, #theatertext, #showtimetext, #pricetext {
+	margin: 2%;
+	width: 90%;
+	border-radius: 10px;
+	height: 40px;
+}
+
+#bsignin, #bsignup {
+	margin: 2%;
+	background: #cc0000;
+	border-radius: 20px;
+	font-size: 1em;
+}
+
+.ticket {
+	width: 40%;
+	margin-top: 5%;
+	font-size: 1.4em;
+}
